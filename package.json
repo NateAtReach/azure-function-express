@@ -31,6 +31,7 @@
     "Yves Merlicco <merlicco@gmail.com>"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "bootstrap": "npm install",
     "build": "rm -rf lib && babel src --out-dir lib",
     "clean": "rm -rf lib coverage node_modules",
